@@ -12,6 +12,6 @@ async def on_ready():
 @client.event
 async def on_message(m):
     if m.content == "!ping":
-        await client.send_message(m.channel, ":ping_pong: Pong !")
+        await client.send_message(m.channel, "Pong ! :ping_pong:")
 
 client.run(token)
