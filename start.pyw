@@ -2,7 +2,7 @@ import discord
 import asyncio
 from discord import Game
 
-token = 'NTY5NTEzNjMyNzQ5MTkxMTg0.XLxvCQ.GegPJB0Zzq-iBwg51HjsF9OqCcI'
+token = ''
 client = discord.Client()
 
 @client.event
